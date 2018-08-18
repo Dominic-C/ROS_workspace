@@ -1,0 +1,13 @@
+The main tag is a <launch> tag, and ends with a </launch>.
+
+within the node tag, there are 3 parameters
+
+pkg : package name
+
+type : Name of actual node to be executed (Node name)
+
+name : The executable name to be used when the node corresponding to the type is executed.
+
+multiple similar publishers and subscribers will publish and subscribe to all nodes. We add namespaces to avoid this. Thus one subscriber can subscribe to a specific
+publisher. This is done by the <group> tag
+**note, no spaces should be present in the names of groups etc.
