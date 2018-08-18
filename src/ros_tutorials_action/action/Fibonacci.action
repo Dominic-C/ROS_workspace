@@ -1,0 +1,12 @@
+# in action files, three consecutive hyphens are used as delimiters.
+
+# goal message definition
+int32 order
+---
+
+# result message definition
+int32[] sequence
+---
+
+# feedback message definition
+int32[] sequence
